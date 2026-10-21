@@ -1,0 +1,17 @@
+name: Bug
+description: Something does not work the way it should
+body:
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: where
+    attributes:
+      label: Where or how to reproduce (file, command, screen)

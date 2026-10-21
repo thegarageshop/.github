@@ -1,0 +1,22 @@
+name: Change request
+description: Work that should be done, with the reason
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why we need it
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: What done looks like
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk if we do nothing
+      options:
+        - none
+        - low
+        - money
+        - quality record
